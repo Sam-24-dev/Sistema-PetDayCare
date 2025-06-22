@@ -1,6 +1,6 @@
 package Interfaces;
 
 public interface Cancelable {
-    boolean cancelar();
-    float calcularPenalizacion();
+  public void cancelar(); 
+  public float calcularPenalizacion();
 }

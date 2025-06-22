@@ -3,6 +3,8 @@ package Interfaces;
 import Incidentes.Notificacion;
 
 public interface Notificable {
-    void enviarNotificacion(String mensaje);
-    void recibirNotificacion(Notificacion notificacion);
+
+    
+      public void enviarNotificación(String mensaje);
+      public void recibirNotificación(Notificacion notificación);
 }

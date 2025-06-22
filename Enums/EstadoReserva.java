@@ -1,5 +1,7 @@
 package Enums;
 
-public class EstadoReserva {
-    
+public enum EstadoReserva {
+    PENDIENTE,
+    CONFIRMADA,
+    CANCELADA
 }

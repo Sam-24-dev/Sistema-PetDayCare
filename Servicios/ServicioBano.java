@@ -1,5 +1,7 @@
 package Servicios;
 
+import dominio.Mascota;
+
 public class ServicioBano extends Servicio {
     private String tipoShampoo;
     private boolean incluyeSecado;
@@ -11,12 +13,27 @@ public class ServicioBano extends Servicio {
     }
 
     @Override
+    public boolean validarDisponibilidad() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'validarDisponibilidad'");
+    }
+
+    @Override
+    public float calcularCosto() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularCosto'");
+    }
+
+    @Override
     public boolean validarCompatibilidad(Mascota mascota) {
-        return mascota != null; // Se puede personalizar según alergias
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'validarCompatibilidad'");
     }
 
     @Override
     public float calcularCostoEspecifico() {
-        return precio + (incluyeSecado ? 5.0f : 0.0f);
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularCostoEspecifico'");
     }
+
 }

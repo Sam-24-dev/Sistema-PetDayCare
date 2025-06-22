@@ -1,5 +1,5 @@
 import java.util.List;
-
+package dominio;
 public class Paquete {
     private String id;
     private String nombre;
