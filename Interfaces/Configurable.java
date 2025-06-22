@@ -1,5 +1,6 @@
 package Interfaces;
 
-public class Configurable {
-    
+public interface Configurable {
+    void actualizar(Object datos);
+    boolean validar();
 }

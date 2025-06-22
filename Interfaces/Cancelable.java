@@ -1,5 +1,6 @@
 package Interfaces;
 
-public class Cancelable {
-    
+public interface Cancelable {
+    boolean cancelar();
+    float calcularPenalizacion();
 }

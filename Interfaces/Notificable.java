@@ -1,5 +1,8 @@
 package Interfaces;
 
-public class Notificable {
-    
+import Incidentes.Notificacion;
+
+public interface Notificable {
+    void enviarNotificacion(String mensaje);
+    void recibirNotificacion(Notificacion notificacion);
 }
