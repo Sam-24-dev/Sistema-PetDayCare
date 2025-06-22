@@ -7,6 +7,11 @@ public class Notificacion {
     private String contenido;
     private Date fechaEnvio;
 
+    public Notificacion(String tipo, String contenido){
+        this.tipo = tipo;
+        this.contenido = contenido;
+    }
+
     public void enviarPorCorreo() {
         System.out.println("Enviando notificación: " + contenido);
     }

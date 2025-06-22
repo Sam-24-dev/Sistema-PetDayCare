@@ -1,7 +1,8 @@
 package Servicios;
 import java.sql.Time;
 
-import dominio.Mascota;
+import Dominios.Mascota;
+
 public class ServicioGuarderia extends Servicio {
     private int capacidadMaxima;
     private Time horarioInicio;

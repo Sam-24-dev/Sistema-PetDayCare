@@ -1,7 +1,8 @@
-
+package Dominios;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import Pagos.Promocion;
 import Incidentes.Notificacion; // Asegúrate de que la ruta del paquete sea correcta
 

@@ -1,11 +1,11 @@
 package Servicios;
 import java.util.ArrayList;
 import java.util.List;
-import dominio.CentroAfiliado;
+import Dominios.CentroAfiliado;
 import Interfaces.Reservable;
-import dominio.Paquete;
-import dominio.Reserva; 
-import dominio.Mascota; 
+import Dominios.Paquete;
+import Dominios.Reserva; 
+import Dominios.Mascota; 
 
 public abstract class Servicio implements Reservable{
     private String nombre; 

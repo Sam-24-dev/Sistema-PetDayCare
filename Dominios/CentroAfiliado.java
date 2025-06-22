@@ -1,10 +1,12 @@
+package Dominios;
+
 import java.util.ArrayList;
 import java.util.List;
 import Administración.Administrador;
 import Administración.PoliticaCancelacion;
-import dominio.Reserva; 
+import Dominios.Reserva; 
 import Servicios.Servicio;
-import dominio.Cuidador; 
+import Dominios.Cuidador; 
 
 public class CentroAfiliado {
     private String nombre; 

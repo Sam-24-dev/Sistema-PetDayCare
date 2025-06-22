@@ -1,6 +1,6 @@
 package Servicios;
 
-import dominio.Mascota;
+import Dominios.Mascota;
 
 public class ServicioBano extends Servicio {
     private String tipoShampoo;
